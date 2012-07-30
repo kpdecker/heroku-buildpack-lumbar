@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -f $1/lumbar.json ]; then
+  echo "Lumbar"
+  exit 0
+else
+  echo "no lumbar file"
+  exit 1
+fi
