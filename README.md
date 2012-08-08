@@ -13,8 +13,8 @@ specific build pack is highlight recommended.
 
 _.buildpacks_
 ```
-https://github.com/heroku/heroku-buildpack-nodejs.git
 https://github.com/kpdecker/heroku-buildpack-lumbar.git
+https://github.com/heroku/heroku-buildpack-nodejs.git
 ```
 
 ## Recompiling the vulcan package
