@@ -30,3 +30,5 @@ file. Foremost is the `output` config attribute which is required to use with th
 3. `cd $nodePackageDir`
 4. vulcan build
 5. ./build-binaries.sh $vulcanPackage
+
+[More information on vulcan builds](https://devcenter.heroku.com/articles/buildpack-binaries)
