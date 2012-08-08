@@ -22,6 +22,5 @@ https://github.com/heroku/heroku-buildpack-nodejs.git
 1. Download the latest version of node.
 2. `tar zxvf $nodePackage`
 3. `cd $nodePackageDir`
-4. `vulcan create $name`
-5. `vulcan build`
-6. `./build-binaries.sh $vulcanPackage`
+4. vulcan build
+5. ./build-binaries.sh $vulcanPackage
