@@ -52,7 +52,7 @@ function package_download() {
   curl $package -s -o - | tar xzf - -C $location
 }
 
-LUMBAR_VERSION=1.0.18
+LUMBAR_VERSION=1.0.19
 echo "Using Lumbar version: ${LUMBAR_VERSION}" | indent
 
 # vendor directories
