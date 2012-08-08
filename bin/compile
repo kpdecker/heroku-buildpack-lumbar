@@ -35,7 +35,7 @@ function indent() {
 function run_lumbar() {
   # TODO : How do we want to handle dirtory output and other config options
   cd $BUILD_DIR
-  lumbar build --minimize lumbar.json public 2>&1 | indent
+  lumbar build --minimize lumbar.json 2>&1 | indent
   if [ "${PIPESTATUS[*]}" != "0 0" ]; then
     echo " !     Failed to execute lumbar"
     exit 1
